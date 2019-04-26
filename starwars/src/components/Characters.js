@@ -1,17 +1,21 @@
-import React from 'react'
+import React from 'react';
+import './StarWars.css';
 
-export default  function Characters(props){
-    return(
-        <div className="character-card">
-          <div className="name">
-             <h1>{props.characterProps.name}</h1>
-          </div>
-          <div className="info">
-            <h3>Birthdate: {props.characterProps.birth_year}</h3>
-            <h3>Gender: {props.characterProps.gender}</h3>
-            <h3>Height: {props.characterProps.height}</h3>
-            <h3>Hair Color: {props.characterProps.hair_color}</h3>
-          </div>
+const Character = props => {
+    return (
+        <div className="characterCard">
+            <div className="name">
+                <h1>
+                {props.characterOnProps.name}
+                </h1>
+            </div>
+            <div className="information">
+                <h3>Birthdate: {props.characterOnProps.birth_year}</h3>
+                <h3>Gender: {props.characterOnProps.gender}</h3>
+                <h3>Height: {props.characterOnProps.height}"</h3>
+                <h3>Hair Color: {props.characterOnProps.hair_color}</h3>                
+            </div>
         </div>
     );
 }
+export default Character; 

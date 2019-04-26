@@ -1,15 +1,28 @@
-import react from 'react'
-import Characters from './Characters'
+import React from 'react';
+import Character from './Characters'
 
-export default function CharacterList(props)  {
-  return (
-      <div>
-          {props.starwarsChars.map(charsInMap =>(
-              <Characters key={charsInMap.name}
-              characterProps={characterInMap} />
-          ))};
-      </div>
-   );     
+
+
+const CharacterList = props => {
+    console.log(props.starwarsChars)
+    return (
+
+        <div>
+            {props.starwarsChars.map( characterInMap => (
+                <Character key={characterInMap.name}
+                characterOnProps={characterInMap}/>
+
+            ))};
+        </div>
+
+
+
+
+    );
 };
+
+
+
+export default CharacterList; 
 
 
