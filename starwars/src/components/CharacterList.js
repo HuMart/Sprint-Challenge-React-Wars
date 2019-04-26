@@ -7,17 +7,13 @@ const CharacterList = props => {
     console.log(props.starwarsChars)
     return (
 
-        <div>
+        <div className= 'character-list'>
             {props.starwarsChars.map( characterInMap => (
                 <Character key={characterInMap.name}
                 characterOnProps={characterInMap}/>
 
             ))};
         </div>
-
-
-
-
     );
 };
 
