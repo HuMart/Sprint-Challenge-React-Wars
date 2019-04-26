@@ -9,72 +9,19 @@
 /* write your parent styles in here for your App.js */
 html,
 body{
-    /* display: flex; */
     width: 100%;
     height: 100%;
     margin: 0;
     padding: 0;
 }
 
-/* body {
-	width: 100wh;
-	height: 90vh;
-	color: #fff;
-	background: linear-gradient(-45deg, rgb(241, 241, 241), rgb(113, 117, 107), rgb(61, 61, 60), rgb(243, 101, 6));
-	background-size: 400% 400%;
-	-webkit-animation: Gradient 15s ease infinite;
-	-moz-animation: Gradient 15s ease infinite;
-	animation: Gradient 15s ease infinite;
-}
-
-@-webkit-keyframes Gradient {
-	0% {
-		background-position: 0% 50%
-	}
-	50% {
-		background-position: 100% 50%
-	}
-	100% {
-		background-position: 0% 50%
-	}
-}
-
-@-moz-keyframes Gradient {
-	0% {
-		background-position: 0% 50%
-	}
-	50% {
-		background-position: 100% 50%
-	}
-	100% {
-		background-position: 0% 50%
-	}
-}
-
-@keyframes Gradient {
-	0% {
-		background-position: 0% 50%
-	}
-	50% {
-		background-position: 100% 50%
-	}
-	100% {
-		background-position: 0% 50%
-	}
-} */
-
-
-
 h1,
 h2,
 h3,
-h4,
-h5,
-h6,
 div,
 p,
 span{
-  color: rgb(61, 72, 226);
+  color: rgb(0, 16, 236);
     font-family: 'Ubuntu', sans-serif;
 }
 
@@ -87,11 +34,10 @@ span{
 }
 
 .header{
-    /* display: flex; */
-    /* flex-direction: column; */
     justify-content: space-between;
     text-align: center;
 }
+
 h1 {
     font-size: 6rem;    
     text-align: center;
@@ -117,11 +63,8 @@ h3{
     width: 45%;
     margin: 20px auto;
     box-shadow: 5px 10px 8px #888888;
-    background-image: url('https://cdn.wccftech.com/wp-content/uploads/2016/09/spacee-2060x1288.jpg')
+    background-image: url('https://cdn.spacetelescope.org/archives/images/wallpaper2/heic1509a.jpg')
     
 }
 
-.name{
-  color: red;
-}
 
