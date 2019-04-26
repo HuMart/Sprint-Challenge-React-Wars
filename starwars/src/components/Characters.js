@@ -5,9 +5,9 @@ const Character = props => {
     return (
         <div className="characterCard">
             <div className="name">
-                <h1>
+                <h2>
                 {props.characterOnProps.name}
-                </h1>
+                </h2>
             </div>
             <div className="information">
                 <h3>Birthdate: {props.characterOnProps.birth_year}</h3>
